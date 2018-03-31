@@ -216,7 +216,7 @@
 	"ui_browse_modal_folder_remove_body" : "确定要删除这个文件夹么?",
 	"ui_browse_modal_folder_remove_unsubscribe_and_remove_items" : "取消订阅或者删除文件夹中的壁纸",
 	
-	"ui_browse_navigation_top" : "置前",
+	"ui_browse_navigation_top" : "置顶",
 
 	"ui_settings_playback" : "回放",
 	"ui_settings_playback_focused" : "其他程序运行时:",
