@@ -5,17 +5,21 @@
 	"core_tray_settings" : "设置",
 	"core_tray_take_screenshot" : "截屏",
 	"core_tray_pause" : "暂停",
-	"core_tray_unpause" : "播放",
+	"core_tray_unpause" : "继续",
 	"core_tray_recent_wallpapers" : "最近壁纸",
 	"core_tray_quit" : "退出",
 	"core_tray_faq" : "帮助和支持",
 	"core_tray_recent_wallpapers_clear" : "清理最近壁纸",
 	"core_tray_next_wallpaper" : "下一张壁纸",
+	"core_tray_mute" : "静音",
+	"core_tray_unmute" : "播放",
 
 	"core_balloon_info" : "Wallpaper Engine 已经在通知区域最小化。双击通知区域的图标来选择一个壁纸。",
 	"core_balloon_desktop_window_error" : "动态壁纸的桌面准备过程失败。",
 	"core_balloon_video_error" : "视频发生错误 {{err}}。点此来获取帮助。",
 	"core_balloon_app_error" : "将应用程序应用为壁纸失败。",
+	"core_balloon_pkg_version_error" : "由于使用较新的版本，此壁纸无法打开。请通过Steam更新Wallpaper Engine。",
+	"core_balloon_wallpaper_file_missing" : "因为缺少相关的文件，此壁纸无法打开。",
 
 	"core_msgboxtitle_error" : "错误",
 	"core_msgboxtitle_app_conflict" : "应用程序冲突",
@@ -75,4 +79,6 @@
 	"core_updater_status_corrupted_system_module_message_box_title" : "系统模块无法加载",
 	"core_updater_status_corrupted_system_module_message_box_body" : "一个系统模块可能已损坏并会导致Wallpaper Engine出现问题.\n\n删除: {{modules}}\n\n重装: {{installers}}",
 	"core_updater_prompt_close" : "Wallpaper Engine 仍在运行中，请首先关闭它。"
+	"core_updater_status_directx_not_supported_title" : "不支持DirectX 10",
+	"core_updater_status_directx_not_supported_body" : "可能您的显卡不支持DirectX 10，这是此应用程序的系统要求。该程序的某些功能将受到限制，不稳定或不可用。"
 }
