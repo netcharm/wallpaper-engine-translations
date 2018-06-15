@@ -24,6 +24,7 @@
 	"core_msgbox_deskscapes" : "DeskScapes 軟體正在執行中，它可能會妨礙 Wallpaper Engine 的正常執行。",
 	"core_msgbox_prompt_aero_win7" : "Wallpaper Engine 需要啟用 Aero 才能執行。 要現在啟用 Aero 嗎?",
 	"core_msgbox_prompt_aero_win8" : "Wallpaper Engine 不能在 '高對比度' 主題下執行。要馬上切換主題嗎?",
+	"core_msgbox_prompt_high_contrast_was_enabled" : "Wallpaper Engine無法工作，因爲Windows已應用“高對比度”主題。",
 	"core_msgbox_dwm_disabled" : "桌面視窗管理員已經被禁用。",
 	"core_msgbox_aero_denied" : "Wallpaper Engine 無法在沒有 Aero 的環境中執行，程式將終止執行。",
 	"core_msgbox_aero_failure" : "啟動 Aero 失敗。 Wallpaper Engine 將終止執行。",
@@ -72,5 +73,7 @@
 	"core_updater_status_complete_starting" : "啟動Wallpaper Engine...",
 	"core_updater_status_cancelled" : "處理程序已被使用者中止",
 	"core_updater_status_corrupted_system_module_message_box_title" : "核心模組載入失敗",
-	"core_updater_status_corrupted_system_module_message_box_body" : "核心模組可能已經毀損，將造成Wallpaper Engine運作異常.\n\n移除: {{modules}}\n\n重新安裝: {{installers}}"
+	"core_updater_status_corrupted_system_module_message_box_body" : "核心模組可能已經毀損，將造成Wallpaper Engine運作異常.\n\n移除: {{modules}}\n\n重新安裝: {{installers}}",
+	"core_updater_prompt_close" : "Wallpaper Engine主程式仍在運行，在這之前請關閉它。"
+
 }			

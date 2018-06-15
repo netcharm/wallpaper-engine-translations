@@ -11,11 +11,15 @@
 	"core_tray_faq" : "Support && FAQ",
 	"core_tray_recent_wallpapers_clear" : "Clear list",
 	"core_tray_next_wallpaper" : "Next Wallpaper",
+	"core_tray_mute" : "Mute",
+	"core_tray_unmute" : "Unmute",
 	
 	"core_balloon_info" : "Wallpaper Engine minimized to your tray. Double click the tray icon to select a wallpaper.",
 	"core_balloon_desktop_window_error" : "Failed preparing desktop for live wallpaper.",
 	"core_balloon_video_error" : "Windows video error occurred {{err}}. Click me for help.",
 	"core_balloon_app_error" : "Failed loading application as wallpaper.",
+	"core_balloon_pkg_version_error" : "This wallpaper cannot be opened due to using a newer version. Try updating Wallpaper Engine over Steam.",
+	"core_balloon_wallpaper_file_missing" : "This wallpaper cannot be opened, because it's missing its files.",
 	
 	"core_msgboxtitle_error" : "Error",
 	"core_msgboxtitle_app_conflict" : "Conflicting Application",
@@ -24,6 +28,7 @@
 	"core_msgbox_deskscapes" : "It appears that DeskScapes is active. This may prevent Wallpaper Engine from functioning.",
 	"core_msgbox_prompt_aero_win7" : "Wallpaper Engine needs to enable Aero in order to work. Enable Aero now?",
 	"core_msgbox_prompt_aero_win8" : "Wallpaper Engine cannot run with a 'high contrast' theme. Reset theme now?",
+	"core_msgbox_prompt_high_contrast_was_enabled" : "Windows has just applied a 'high contrast' theme which does not allow Wallpaper Engine to work.",
 	"core_msgbox_dwm_disabled" : "Desktop composition is disabled.",
 	"core_msgbox_aero_denied" : "Wallpaper Engine cannot work without Aero and will now quit.",
 	"core_msgbox_aero_failure" : "Failed to enable Aero. Wallpaper Engine will now quit.",
@@ -52,6 +57,7 @@
 	"core_updater_status_distro_file_directory" : "Creating directory: {{filepath}}",
 	"core_updater_status_distro_file_directory_error" : "Failed to create directory: {{error}}",
 	"core_updater_status_distro_file_copy" : "Copying file: {{filepath}}",
+	"core_updater_status_distro_file_skip" : "Skipping equal file: {{filepath}}",
 	"core_updater_status_distro_file_copy_error" : "Failed to copy file: {{error}}",
 	"core_updater_status_verify" : "Verifying installation...",
 	"core_updater_status_verify_file_missing" : "Missing file: {{filepath}}",
@@ -72,5 +78,8 @@
 	"core_updater_status_complete_starting" : "Starting Wallpaper Engine...",
 	"core_updater_status_cancelled" : "Process has been cancelled by the user",
 	"core_updater_status_corrupted_system_module_message_box_title" : "System module cannot be loaded",
-	"core_updater_status_corrupted_system_module_message_box_body" : "A system module appears to be corrupted and may cause Wallpaper Engine to malfunction.\n\nDelete: {{modules}}\n\nReinstall: {{installers}}"
+	"core_updater_status_corrupted_system_module_message_box_body" : "A system module appears to be corrupted and may cause Wallpaper Engine to malfunction.\n\nDelete: {{modules}}\n\nReinstall: {{installers}}",
+	"core_updater_prompt_close" : "Wallpaper Engine is still running, please close it first. Waiting for these processes to close:",
+	"core_updater_status_directx_not_supported_title" : "DirectX 10 not supported",
+	"core_updater_status_directx_not_supported_body" : "It appears that your graphics card does not support DirectX 10 or that your graphics driver has an issue. DirectX 10 is a system requirement for this application to work correctly.\n\nIf your graphics card is supposed to support DirectX 10, your current graphics driver could just be damaged. You can try reinstalling the driver or getting in touch with the vendor of your hardware (Nvidia, AMD, Intel) to solve this."
 }

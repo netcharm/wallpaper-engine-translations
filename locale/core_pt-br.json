@@ -3,7 +3,7 @@
 	"core_tray_browse_workshop" : "Navegar pela Oficina",
 	"core_tray_create_wallpaper" : "Criar plano de fundo",
 	"core_tray_settings" : "Configurações",
-	"core_tray_take_screenshot" : "Tirar screenshot",
+	"core_tray_take_screenshot" : "Capturar tela",
 	"core_tray_pause" : "Pausar",
 	"core_tray_unpause" : "Despausar",
 	"core_tray_recent_wallpapers" : "Planos de fundo recentes",
@@ -11,19 +11,24 @@
 	"core_tray_faq" : "Suporte e perguntas frequentes",
 	"core_tray_recent_wallpapers_clear" : "Limpar lista",
 	"core_tray_next_wallpaper" : "Próximo plano de fundo",
-	
+	"core_tray_mute" : "Silenciar",
+	"core_tray_unmute" : "Remover silêncio",
+
 	"core_balloon_info" : "Wallpaper Engine minimizado para a bandeja. Dê um duplo clique no ícone da bandeja para selecionar um plano de fundo.",
 	"core_balloon_desktop_window_error" : "Falha ao preparar área de trabalho.",
-	"core_balloon_video_error" : "Ocorreu um erro de vídeo: {{err}}. Clique para obter ajuda.",
+	"core_balloon_video_error" : "Ocorreu um erro de vídeo do Windows: {{err}}. Clique para obter ajuda.",
 	"core_balloon_app_error" : "Falha ao carregar aplicativo como plano de fundo.",
-	
+	"core_balloon_pkg_version_error" : "Este plano de fundo não pode ser aberto nesta versão. Tente atualizar o Wallpaper Engine para uma versão mais recente no Steam.",
+	"core_balloon_wallpaper_file_missing" : "Este plano de fundo não pode ser aberto porque alguns arquivos necessários estão ausentes.",
+
 	"core_msgboxtitle_error" : "Erro",
 	"core_msgboxtitle_app_conflict" : "Aplicativo conflitante",
 	"core_msgboxtitle_wpe" : "Wallpaper Engine",
-	
+
 	"core_msgbox_deskscapes" : "Parece que o DeskScapes está ativo, o que pode impedir que o Wallpaper Engine funcione corretamente.",
 	"core_msgbox_prompt_aero_win7" : "O Wallpaper Engine precisa habilitar o Aero para funcionar. Ativar Aero agora?",
 	"core_msgbox_prompt_aero_win8" : "O Wallpaper Engine não pode ser executado com um tema de \"alto contraste\". Redefinir tema agora?",
+	"core_msgbox_prompt_high_contrast_was_enabled" : "O Windows aplicou um tema de \"alto contraste\" que impede que o Wallpaper Engine funcione corretamente.",
 	"core_msgbox_dwm_disabled" : "A composição da área de trabalho está desativada.",
 	"core_msgbox_aero_denied" : "O Wallpaper Engine não pode funcionar sem o Aero e será fechado agora.",
 	"core_msgbox_aero_failure" : "Falha ao habilitar Aero. O Wallpaper Engine será fechado agora.",
@@ -32,7 +37,7 @@
 	"core_msgbox_init_secondinstance_failed" : "Falha ao reiniciar, código do erro:",
 	"core_msgbox_below_win_7" : "O Wallpaper Engine requer Windows 7 ou posterior, como indicado pelos requisitos de sistema no Steam.\n\nParece que você está rodando uma versão sem suporte do Windows e o Wallpaper Engine pode não funcionar.",
 	"core_msgbox_media_feature_pack_missing" : "mfplat.dll ausente!\nVocê possivelmente possui uma edição N do Windows. Por favor, instale o Media Feature Pack da Microsoft para ativar suporte a vídeos! (Google: Media Feature Pack Windows 10/8.1/7)",
-	
+
 	"core_updater_headline_init" : "Preparando Wallpaper Engine...",
 	"core_updater_headline_update" : "Atualizando Wallpaper Engine para a versão {{version}}...",
 	"core_updater_headline_init_complete" : "Instalação da versão {{version}} concluída. Iniciando Wallpaper Engine...",
@@ -60,9 +65,9 @@
 	"core_updater_status_verify_success" : "Arquivo verificado: {{filepath}}",
 	"core_updater_status_verify_failed_message_box_title" : "Erros na verificação de arquivos",
 	"core_updater_status_verify_failed_message_box_body" : "Certifique-se de que o aplicativo está fechado durante a atualização (Feche através do ícone da bandeja ou do Gerenciador de Tarefas caso necessário). Falha ao verificar os seguintes arquivos. Verifique os arquivos no Steam (clique com o botão direito em Wallpaper Engine na biblioteca Steam, selecione \"Propriedades\" no menu, navegue até a aba \"Arquivos locais\" e clique em \"Verificar integridade dos arquivos...\"). Isso pode acontecer devido a erros de download no Steam ou programas antivírus detectando arquivos como falso positivo e causando problemas. Caso o seu antivírus não seja da Microsoft, verifique se ele não interfere com o Steam e o Wallpaper Engine.\n\n{{filenames}}",
-	"core_updater_status_compat" : "Buscando aplicativos incompatíveis...",
+	"core_updater_status_compat" : "Buscando por aplicativos incompatíveis...",
 	"core_updater_status_compat_error" : "Falha ao analisar processos",
-	"core_updater_status_compat_found" : "Encontrou um processo incompatível: {{processname}}",
+	"core_updater_status_compat_found" : "Processo incompatível encontrado: {{processname}}",
 	"core_updater_status_compat_message_box_title" : "Aplicativos incompatíveis encontrados",
 	"core_updater_status_compat_message_box_body" : "Os seguintes aplicativos em execução podem fazer com o Wallpaper Engine falhe ou torne seu sistema instável. Eles injetam código no Wallpaper Engine que causa problemas. Adicione o Wallpaper Engine à lista de exclusão, adicionando os executáveis wallpaper32.exe e wallpaper64.exe.\n\n{{list}}",
 	"core_updater_status_compat_message_box_body_item_exclude" : "{{name}}: exclui Wallpaper Engine",
@@ -72,6 +77,8 @@
 	"core_updater_status_complete_starting" : "Iniciando Wallpaper Engine...",
 	"core_updater_status_cancelled" : "O processo foi cancelado pelo usuário",
 	"core_updater_status_corrupted_system_module_message_box_title" : "O módulo do sistema não pode ser carregado",
-	"core_updater_status_corrupted_system_module_message_box_body" : "Um módulo do sistema parece estar corrompido e pode causar mau funcionamento do Wallpaper Engine.\n\nExcluir: {{modules}}\n\nReinstalar: {{installers}}"
+	"core_updater_status_corrupted_system_module_message_box_body" : "Um módulo do sistema parece estar corrompido e pode causar mau funcionamento do Wallpaper Engine.\n\nExcluir: {{modules}}\n\nReinstalar: {{installers}}",
+	"core_updater_prompt_close" : "O Wallpaper Engine ainda está em execução. Por favor, feche-o antes de continuar. Aguardando o encerramento dos seguintes processos:",
+	"core_updater_status_directx_not_supported_title" : "DirectX 10 não suportado",
+	"core_updater_status_directx_not_supported_body" : "Parece que a sua placa de vídeo não é compatível com o DirectX 10 ou o seu driver de vídeo não está funcionando corretamente. O DirectX 10 é um requisito do sistema para este aplicativo. Algumas funcionalidades do programa serão limitadas, instáveis ou indisponíveis."
 }
-
