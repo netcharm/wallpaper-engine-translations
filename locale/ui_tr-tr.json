@@ -1029,7 +1029,7 @@
 	"ui_browse_download_header" : "Atölye'den indiriliyor",
 	"ui_browse_download_pending" : "Kuyrukta",
 	
-	"ui_settings_disable_slideshow" : "Sistemden duvar kağıdını sil:",
+	"ui_settings_disable_slideshow" : "Windows duvar kağıdı solmasını kaldır:",
 	
 	"ui_editor_filemenu_import_sound" : "Sesi içeriye aktar",
 	
@@ -1168,5 +1168,73 @@
 	"ui_browse_explore_category_creator_genre_recent" : "<b>{{user}}</b>'in Son <b>{{genre}}</b> duvar kağıtları",
 	"ui_browse_explore_category_creator_genre_popular" : "<b>{{user}}</b>'in Popüler <b>{{genre}}</b> duvar kağıtları",
 	
-	"ui_browse_explore_category_keyword_most_subscribed" : "Çok indirilen <b>{{keyword}}</b> duvar kağıtları"
+	"ui_browse_explore_category_keyword_most_subscribed" : "Çok indirilen <b>{{keyword}}</b> duvar kağıtları",
+	"ui_browse_details_author_pending" : "< Bekliyor >",
+	
+	"ui_browse_context_menu_icon_small" : "Küçük Simgeler",
+	
+	"ui_browse_download_waiting" : "Steam için bekleniyor",
+	"ui_browse_download_missing_files" : "Eksik dosyalar tespit edildi. Programı Steam'den doğrulayın.",
+	
+	"ui_settings_show_tray_icon" : "Tepsi simgesini göster:",
+	
+	"ui_editor_preset_magic_title" : "Sihir",
+	"ui_editor_preset_magic_description" : "Çeşitli sihir efektli animasyonlar.",
+	"ui_editor_preset_interactive_title" : "Etkileşimli",
+	"ui_editor_preset_interactive_description" : "İmlecin etkilediği etkileşimli parçacıklar.",
+	"ui_editor_preset_abstract_title" : "Parçacık",
+	"ui_editor_preset_abstract_description" : "Genel parçacık efektleri.",
+	
+	"ui_editor_particle_element_control_point_end" : "Denetim noktası sonu",
+	"ui_editor_particle_element_control_point_start" : "Denetim noktası başlangıcı",
+	"ui_editor_particle_element_fixed" : "Sabit",
+	"ui_editor_particle_element_mirror" : "Ayna",
+	"ui_editor_particle_element_orientation" : "Yönlendirme",
+	"ui_editor_particle_element_repeat" : "Tekrar et",
+	"ui_editor_particle_element_screen" : "Ekran",
+	"ui_editor_particle_element_upright" : "Dik",
+	"ui_editor_particle_element_segments" : "Kesimler",
+	"ui_editor_particle_element_subdivision" : "Alt bölüm",
+	"ui_editor_particle_element_infinite_axis" : "Sonsuz eksen",
+	"ui_editor_particle_element_initializer_mapsequencearoundcontrolpoint" : "Denetim noktası etrafında harita sırası",
+	"ui_editor_particle_element_initializer_mapsequencebetweencontrolpoints" : "Denetim noktaları arasında harita sırası",
+	"ui_editor_particle_element_renderer_rope" : "Halat",
+	"ui_editor_particle_element_renderer_ropetrail" : "Halat izi",
+	"ui_create" : "Oluştur",
+	
+	"ui_settings_playback_application_rules" : "Uygulama kuralları:",
+	"ui_settings_playback_application_rules_header" : "Uygulama Kuralları",
+	"ui_settings_playback_application_rules_edit" : "Düzenle",
+	"ui_settings_playback_active_rules" : "Aktif Kurallar",
+	"ui_settings_playback_new_rule" : "Yeni kural oluştur",
+	"ui_settings_playback_new_rule_application_name" : "Uygulama ismi",
+	"ui_settings_playback_new_rule_condition" : "Koşul",
+	"ui_settings_playback_new_rule_action" : "Duvar kağıdını yeniden oynat",
+	"ui_settings_playback_condition_is_running" : "Çalışıyor",
+	"ui_settings_playback_condition_is_focused" : "Odaklanıyor",
+	"ui_settings_playback_condition_is_maximized" : "Maksimize ediliyor",
+	"ui_settings_playback_condition_is_fullscreen" : "Tam ekran",
+	"ui_settings_playback_condition_is_playing_audio" : "Ses oynatılıyor",
+	"ui_settings_playback_rule_remove" : "Kaldır",
+	"ui_settings_playback_rule_edit" : "Düzenle",
+	
+	"ui_settings_advanced_unpause_during_aero_peek" : "Aero Peek sırasında duraklama:",
+	
+	"ui_settings_about_changelog" : "Değişiklikler",
+	
+	"ui_settings_playback_stop_all" : "Hepsini durdur",
+	"ui_settings_playback_stop_per_monitor" : "Monitör başına durdur",
+	
+	"ui_editor_filemenu_close_wallpaper" : "Projeyi Kapat",
+	
+	"ui_editor_context_menu_lock" : "Kilitle",
+	"ui_editor_context_menu_unlock" : "Kilidi Aç",
+	
+	"ui_editor_properties_locked" : "Kilitli",
+	
+	"ui_editor_properties_playback_rate" : "Oynatma hızı",
+	
+	"ui_editor_particle_element_count" : "Sayısı",
+	
+	"ui_editor_particle_element_not_more_than_one_per_frame" : "Kare başına limit"
 }
