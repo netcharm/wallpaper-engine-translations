@@ -1,0 +1,18 @@
+{
+	"Platform" : "Steam",
+	"PLATFORM" : "STEAM",
+	"Sdk" : "Steamworks",
+	"Provider" : "Valve",
+	"PROVIDER" : "VALVE",
+	"Host" : "Workshop",
+	"support_email" : "support@wallpaperengine.io",
+	"var_url_faq" : "steam://url/GameHub/431960\\discussions\\2\\348292787747453462",
+	"var_url_faqdownloads" : "steam://url/GameHub/431960\\discussions\\2\\2860219962087485227",
+	"var_url_discussions" : "steam://url/GameHub/431960\\discussions",
+	"var_url_sendsupportmail" : "mailto:support@wallpaperengine.io?Subject=Application%20Support",
+	"var_url_userpage" : "steam://url/SteamIDPage/{{id}}",
+	"var_url_itempage" : "steam://url/CommunityFilePage/{{id}}",
+	"var_url_guidepage" : "steam://url/CommunityFilePage/{{id}}",
+	"var_url_providerrules" : "http://store.steampowered.com/subscriber_agreement/",
+	"var_url_translations" : "steam://url/GameHub/431960\\discussions\\7\\215439774876424597"
+}

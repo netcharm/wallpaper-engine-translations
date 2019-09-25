@@ -39,6 +39,7 @@
 	"core_msgbox_init_secondinstance_failed" : "重新启动失败，错误代码：",
 	"core_msgbox_below_win_7" : "Wallpaper Engine 需要运行在 Windows 7 或更高的系统版本上（在 Steam 的 '系统需求' 中有指明）。\n\n看起来您正在运行一个不受 Wallpaper Engine 所支持的 Windows 版本，Wallpaper Engine 可能不会正常工作。",
 	"core_msgbox_media_feature_pack_missing" : "丢失 mfplat.dll 文件！\n您可能使用的是 Windows N 版本。请安装 Microsoft 的 Media Feature Pack 以启用视频支持！ (搜索： Media Feature Pack Windows 10/8.1/7)",
+	"core_msgbox_ui_file_not_found" : "该程序文件无法打开.\n\n可能在文件的安装路径中包含了异常字符, 文件可能缺失或程序被反病毒程序阻止.\n\n请通过Steam重新安装到相同路径或者新建一个使用可接受简单字符的Steam库路径并安装.",
 
 	"core_updater_headline_init" : "正在安装 Wallpaper Engine...",
 	"core_updater_headline_update" : "正在更新 Wallpaper Engine 版本到 {{version}}...",
@@ -81,6 +82,8 @@
 	"core_updater_status_cancelled" : "操作被用户取消",
 	"core_updater_status_corrupted_system_module_message_box_title" : "系统模块无法加载",
 	"core_updater_status_corrupted_system_module_message_box_body" : "一个系统模块可能已损坏并会导致 Wallpaper Engine 出现问题。\n\n删除： {{modules}}\n\n重装： {{installers}}",
+	"core_updater_status_corrupted_system_module_message_box_body_delete" : "- 首先, 在Windows资源管理器删除这些文件:\n{{modules}}\n\n",
+	"core_updater_status_corrupted_system_module_message_box_body_install_directx" : "- 重新运行安装以下路径中的DirectX库:\n{{installers}}\n或者, 你可以从微软网站重新下载安装DirectX 9.",
 	"core_updater_prompt_close" : "Wallpaper Engine 仍在运行中，请先关闭它。正在等待以下进程被关闭：",
 	"core_updater_prompt_close_foreign" : "Wallpaper Engine无法继续更新，似乎有程序正在锁定某些文件。请关闭这些程序以继续: ",
 	"core_updater_status_directx_not_supported_title" : "不支持DirectX 10",
