@@ -6,7 +6,7 @@
 	"core_tray_take_screenshot" : "截屏",
 	"core_tray_pause" : "暂停",
 	"core_tray_unpause" : "继续",
-	"core_tray_recent_wallpapers" : "最近壁纸",
+	"core_tray_recent_wallpapers" : "最近显示过的壁纸",
 	"core_tray_saved_playlists" : "已保存的播放列表",
 	"core_tray_saved_profiles": "保存的配置文件",
 	"core_tray_quit" : "退出",
